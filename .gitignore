@@ -1,0 +1,11 @@
+*.suo
+*.user
+*.tmp_proj
+*.metaproj
+*.tmp
+bin
+obj
+publish
+/Release
+/Debug
+/.vs
