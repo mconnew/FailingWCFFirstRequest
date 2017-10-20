@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,7 +17,8 @@ namespace Microsoft.ServiceModel.Samples
 
         protected void Session_Start(object sender, EventArgs e)
         {
-
+            // Code that runs when a new session is started
+            string sessionId = Session.SessionID;
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)
